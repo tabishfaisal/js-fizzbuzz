@@ -6,7 +6,7 @@
 // stampiamo i numeri da 1 a 100
 for(let i=0; i<100; i++){
     let num = i+1
-    if(num%3===0 && num%5===0){ // metto la condizione usando method
+    if(num%3===0 && num%5===0){ // metto la condizione usando operatore methodo
         console.log("FizzBuzz");
     } else if (num%3===0){ // faccio stampare Fizz al posto dei numeri multipli di 3
         console.log("Fizz");
